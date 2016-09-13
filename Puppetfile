@@ -9,4 +9,4 @@ mod 'users',
 
 mod 'ntp_wrapper',
   :git    => 'git@github.com:LMacchi/ntp_wrapper.git',
-  :commit => '7f828dc0d7c2bd6eda2c227835bb175cf3ff3263'
+  :commit => 'b6c366ae0f3ad252f430a4071fb28c642ae6d2d1'
