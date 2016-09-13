@@ -26,6 +26,10 @@ File { backup => false }
 
 node 'laura.puppetlabs.vm' {
   include users
+  class { 'ntp_wrapper':
+    server1 => 'time.apple.com',
+    server2 => 'pool.ntp.org',
+  }
 }
 
 node default {
