@@ -26,7 +26,6 @@ File { backup => false }
 
 node 'laura.puppetlabs.vm' {
   include users
-  include ntp_wrapper
 }
 
 node default {
