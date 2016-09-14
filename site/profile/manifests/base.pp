@@ -15,9 +15,7 @@ class profile::base {
     managehome => true,
   }
 
-  class { '::ntp':
-    servers => ['0.pool.ntp.org','1.pool.ntp.org'],
-  }
+  include ntp
 
   include ::epel
 
